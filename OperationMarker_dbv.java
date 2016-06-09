@@ -22,12 +22,6 @@ public class OperationMarker_dbv implements PlugIn {
 	@Override
 	public void run(String arg) {
 
-		//String [] allimages = new String [WindowManager.getWindowCount()-1];
-		//for (int i = 0; i < WindowManager.getWindowCount(); i++) {
-		//	ImagePlus img = WindowManager.getImage(WindowManager.getNthImageID(i));
-		//	allimages[i] = img.getTitle();
-		//}
-
 		String [] allimages = WindowManager.getImageTitles();
 
 		String firstName = "", secName = "";
